@@ -10,6 +10,19 @@ if (typeof jQuery == 'undefined'){
 	const $h1 = $('<h1>').text("Hogwarts");
 		$('body').append($h1);
 
+	const $h2 = $('<h2/>').text("Katie Turner");
+	$('body').append($h2);
+
+	const $h3 = $('<h3/>').text("Gryffindor");
+	$('body').append($h3);
+
+
+	const $h4 = $('<h4/>').text("Leopard");
+	$('body').append($h4);	
+	$('h4').addClass("leopard");
+	
+	
+
 
 
 // const addText = () => {

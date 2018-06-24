@@ -2,7 +2,19 @@ body {
 	background-color: orange;
 	text-align: center;
 }
+ul {
+	list-style-type: none;
 
-.leopard {
+}
+
+.pet {
 	font-family: fantasy;
 }
+
+.secret {
+	opacity: 0.5;
+}
+
+table, th, td {
+	border: 1px solid grey;
+	}
